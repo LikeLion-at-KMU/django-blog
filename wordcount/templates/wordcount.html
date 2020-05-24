@@ -1,0 +1,19 @@
+<style>
+
+    body{
+
+       background-color: #D1B2FF
+
+    }
+
+</style>
+<h1>wordcount!!!!</h1>
+
+<a href="{%url 'about'  %}">about</a>
+
+<form action="{%url 'result'%}" method ="GET">
+    <textarea name="fulltext" id="" cols="30" rows="10" placeholder="같이 세어 봅시다"></textarea>
+
+    <button type = "submit">count!</button>
+
+</form>
